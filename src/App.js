@@ -1,16 +1,12 @@
 import './App.css';
-import Feature from './components/Feature';
-import Header from './components/Header';
-import Mainpage from './components/Mainpage';
-import Quality from './components/Quality';
+import Todo from './components/todo';
+
 
 function App() {
+ 
   return (
     <div className='app'>
-      <Header/>
-      <Mainpage/>
-      <Feature/>
-      <Quality/>
+        <Todo/>
     </div>
   );
 }

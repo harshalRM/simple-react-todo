@@ -5,42 +5,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-  width: 100%;
-}
-.app{
-  background-color: #eee;
-  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
-.quality h5{
-  font-size: 0.8em;
+.app{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  
 }
-.right h3{
-  background-color: rgb(164, 237, 164);
+.addItems{
+  width: 50%;
 }
-.expe{
-  height: 100%;
+.card{
+    width: 800px;
+    height: 430px;
+    background-color: #fff;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.4), inset 0 -8px 16px 0 rgba(0, 0, 0, 0.4);
 }
-.icon{
-  height: 40px;
-  width: 30px;
-}
-.on{
-  background-color: rgb(237, 145, 176);
-}
-.navbar-nav a{
-  font-weight: bolder;
-  color: black;
-}
-.navbar-brand{
-  font-family: 'Roboto Slab', serif;
-  font-size: 2.5rem;
-}
-.free{
-  background-color: rgb(187, 240, 187);
-}
-.long{
-  background-color: rgb(194, 228, 240);
+h1{
+  text-shadow: 2px 2px 4px  black;
 }
